@@ -1,0 +1,27 @@
+{
+  "name": "backend",
+  "version": "0.0.1",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node script.js",
+    "dev": "nodemon script.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jocomst/NodeBackend.git"
+  },
+  "author": "John Comstock",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jocomst/NodeBackend/issues"
+  },
+  "homepage": "https://github.com/jocomst/NodeBackend#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
